@@ -1,0 +1,56 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 100vh; /* Set the height to occupy full viewport height */
+}
+
+.signup-heading {
+  font-size: 54px;
+  margin-bottom: 100px;
+  text-align: left; /* Align the signup heading to the left */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-input {
+  width: 650px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 18px; /* Increase the text size for inputs */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 16px; /* Increase the text size for error messages */
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+  font-size: 16px; /* Increase the text size for success messages */
+}
+
+.signup-button {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Increase the text size for the signup button */
+}
